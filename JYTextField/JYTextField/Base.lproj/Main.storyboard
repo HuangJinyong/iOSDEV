@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JYTextFileld" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JYTextField" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -19,48 +19,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h02-j9-zDS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scP-yU-uTv">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="35" id="sUy-nI-gVm"/>
+                                    <constraint firstAttribute="width" constant="35" id="MM8-yV-HWc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jOp-eU-rxt" customClass="JYTextField" customModule="JYTextFileld" customModuleProvider="target">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5MZ-XR-fue" customClass="JYTextField" customModule="JYTextField" customModuleProvider="target">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="180" id="wT0-Jc-VUE"/>
+                                    <constraint firstAttribute="width" constant="170" id="LiG-Be-0z2"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="j0E-xo-ImZ">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="C1r-u2-rIG">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="49" id="vsa-RG-QFI"/>
+                                    <constraint firstAttribute="width" constant="49" id="7rP-nR-5EP"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="swichChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="PhH-ud-ORd"/>
+                                    <action selector="swichChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="45q-U6-5C1"/>
                                 </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="leadingMargin" secondItem="h02-j9-zDS" secondAttribute="leading" id="Clg-9k-hox"/>
-                            <constraint firstItem="j0E-xo-ImZ" firstAttribute="leading" secondItem="jOp-eU-rxt" secondAttribute="trailing" constant="18" id="RiD-de-mSj"/>
-                            <constraint firstItem="j0E-xo-ImZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="SWD-52-FVY"/>
-                            <constraint firstItem="jOp-eU-rxt" firstAttribute="leading" secondItem="h02-j9-zDS" secondAttribute="trailing" constant="18" id="eZr-k7-Pjd"/>
-                            <constraint firstItem="h02-j9-zDS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="56" id="noe-cC-YR6"/>
-                            <constraint firstItem="jOp-eU-rxt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="51" id="xH3-O4-vx8"/>
+                            <constraint firstItem="5MZ-XR-fue" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="43" id="1cG-30-rO3"/>
+                            <constraint firstItem="scP-yU-uTv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="OBi-ie-tQ1"/>
+                            <constraint firstItem="5MZ-XR-fue" firstAttribute="leading" secondItem="scP-yU-uTv" secondAttribute="trailing" constant="10" id="fq1-Rj-Fdp"/>
+                            <constraint firstItem="scP-yU-uTv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="48" id="m4l-y9-ADp"/>
+                            <constraint firstItem="C1r-u2-rIG" firstAttribute="leading" secondItem="5MZ-XR-fue" secondAttribute="trailing" constant="18" id="oK2-lH-YIC"/>
+                            <constraint firstItem="C1r-u2-rIG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="42" id="vbi-0g-Ce0"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="textfield" destination="jOp-eU-rxt" id="UTi-1v-dYS"/>
+                        <outlet property="textfield" destination="5MZ-XR-fue" id="NCc-0q-uOg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="130.88455772113943"/>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
     </scenes>
 </document>

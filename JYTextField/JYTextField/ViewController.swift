@@ -1,26 +1,26 @@
 //
 //  ViewController.swift
-//  JYTextFileld
+//  JYTextField
 //
-//  Created by Jinyong on 2016/10/13.
+//  Created by Jinyong on 2016/10/14.
 //  Copyright © 2016年 Jinyong. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-    
-    @IBOutlet var textfield: JYTextField!
 
+    @IBOutlet var textfield: JYTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
     
     @IBAction func swichChanged(_ sender: UISwitch) {
         

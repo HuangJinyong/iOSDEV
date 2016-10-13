@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  JYTextFileld
+//  JYTextField
 //
-//  Created by Jinyong on 2016/10/13.
+//  Created by Jinyong on 2016/10/14.
 //  Copyright © 2016年 Jinyong. All rights reserved.
 //
 

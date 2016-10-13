@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B47FDBB1DAFEF720063EB85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47FDBA1DAFEF720063EB85 /* AppDelegate.swift */; };
+		4B47FDBD1DAFEF720063EB85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47FDBC1DAFEF720063EB85 /* ViewController.swift */; };
+		4B47FDC01DAFEF720063EB85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B47FDBE1DAFEF720063EB85 /* Main.storyboard */; };
+		4B47FDC21DAFEF720063EB85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B47FDC11DAFEF720063EB85 /* Assets.xcassets */; };
+		4B47FDC51DAFEF720063EB85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B47FDC31DAFEF720063EB85 /* LaunchScreen.storyboard */; };
+		4B47FDD01DAFEF720063EB85 /* JYTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47FDCF1DAFEF720063EB85 /* JYTextFieldTests.swift */; };
+		4B47FDDB1DAFEF720063EB85 /* JYTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47FDDA1DAFEF720063EB85 /* JYTextFieldUITests.swift */; };
+		4B47FDE91DAFEF850063EB85 /* JYTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47FDE81DAFEF850063EB85 /* JYTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B47FDCC1DAFEF720063EB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B47FDAF1DAFEF720063EB85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B47FDB61DAFEF720063EB85;
+			remoteInfo = JYTextField;
+		};
+		4B47FDD71DAFEF720063EB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B47FDAF1DAFEF720063EB85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B47FDB61DAFEF720063EB85;
+			remoteInfo = JYTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B47FDB71DAFEF720063EB85 /* JYTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B47FDBA1DAFEF720063EB85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B47FDBC1DAFEF720063EB85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B47FDBF1DAFEF720063EB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B47FDC11DAFEF720063EB85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B47FDC41DAFEF720063EB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B47FDC61DAFEF720063EB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B47FDCB1DAFEF720063EB85 /* JYTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B47FDCF1DAFEF720063EB85 /* JYTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYTextFieldTests.swift; sourceTree = "<group>"; };
+		4B47FDD11DAFEF720063EB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B47FDD61DAFEF720063EB85 /* JYTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B47FDDA1DAFEF720063EB85 /* JYTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JYTextFieldUITests.swift; sourceTree = "<group>"; };
+		4B47FDDC1DAFEF720063EB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B47FDE81DAFEF850063EB85 /* JYTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B47FDB41DAFEF720063EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B47FDC81DAFEF720063EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B47FDD31DAFEF720063EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B47FDAE1DAFEF720063EB85 = {
+			isa = PBXGroup;
+			children = (
+				4B47FDB91DAFEF720063EB85 /* JYTextField */,
+				4B47FDCE1DAFEF720063EB85 /* JYTextFieldTests */,
+				4B47FDD91DAFEF720063EB85 /* JYTextFieldUITests */,
+				4B47FDB81DAFEF720063EB85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B47FDB81DAFEF720063EB85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B47FDB71DAFEF720063EB85 /* JYTextField.app */,
+				4B47FDCB1DAFEF720063EB85 /* JYTextFieldTests.xctest */,
+				4B47FDD61DAFEF720063EB85 /* JYTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B47FDB91DAFEF720063EB85 /* JYTextField */ = {
+			isa = PBXGroup;
+			children = (
+				4B47FDBA1DAFEF720063EB85 /* AppDelegate.swift */,
+				4B47FDBC1DAFEF720063EB85 /* ViewController.swift */,
+				4B47FDE81DAFEF850063EB85 /* JYTextField.swift */,
+				4B47FDBE1DAFEF720063EB85 /* Main.storyboard */,
+				4B47FDC11DAFEF720063EB85 /* Assets.xcassets */,
+				4B47FDC31DAFEF720063EB85 /* LaunchScreen.storyboard */,
+				4B47FDC61DAFEF720063EB85 /* Info.plist */,
+			);
+			path = JYTextField;
+			sourceTree = "<group>";
+		};
+		4B47FDCE1DAFEF720063EB85 /* JYTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B47FDCF1DAFEF720063EB85 /* JYTextFieldTests.swift */,
+				4B47FDD11DAFEF720063EB85 /* Info.plist */,
+			);
+			path = JYTextFieldTests;
+			sourceTree = "<group>";
+		};
+		4B47FDD91DAFEF720063EB85 /* JYTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B47FDDA1DAFEF720063EB85 /* JYTextFieldUITests.swift */,
+				4B47FDDC1DAFEF720063EB85 /* Info.plist */,
+			);
+			path = JYTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B47FDB61DAFEF720063EB85 /* JYTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B47FDDF1DAFEF720063EB85 /* Build configuration list for PBXNativeTarget "JYTextField" */;
+			buildPhases = (
+				4B47FDB31DAFEF720063EB85 /* Sources */,
+				4B47FDB41DAFEF720063EB85 /* Frameworks */,
+				4B47FDB51DAFEF720063EB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYTextField;
+			productName = JYTextField;
+			productReference = 4B47FDB71DAFEF720063EB85 /* JYTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B47FDCA1DAFEF720063EB85 /* JYTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B47FDE21DAFEF720063EB85 /* Build configuration list for PBXNativeTarget "JYTextFieldTests" */;
+			buildPhases = (
+				4B47FDC71DAFEF720063EB85 /* Sources */,
+				4B47FDC81DAFEF720063EB85 /* Frameworks */,
+				4B47FDC91DAFEF720063EB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B47FDCD1DAFEF720063EB85 /* PBXTargetDependency */,
+			);
+			name = JYTextFieldTests;
+			productName = JYTextFieldTests;
+			productReference = 4B47FDCB1DAFEF720063EB85 /* JYTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B47FDD51DAFEF720063EB85 /* JYTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B47FDE51DAFEF720063EB85 /* Build configuration list for PBXNativeTarget "JYTextFieldUITests" */;
+			buildPhases = (
+				4B47FDD21DAFEF720063EB85 /* Sources */,
+				4B47FDD31DAFEF720063EB85 /* Frameworks */,
+				4B47FDD41DAFEF720063EB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B47FDD81DAFEF720063EB85 /* PBXTargetDependency */,
+			);
+			name = JYTextFieldUITests;
+			productName = JYTextFieldUITests;
+			productReference = 4B47FDD61DAFEF720063EB85 /* JYTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B47FDAF1DAFEF720063EB85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Jinyong;
+				TargetAttributes = {
+					4B47FDB61DAFEF720063EB85 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					4B47FDCA1DAFEF720063EB85 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B47FDB61DAFEF720063EB85;
+					};
+					4B47FDD51DAFEF720063EB85 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B47FDB61DAFEF720063EB85;
+					};
+				};
+			};
+			buildConfigurationList = 4B47FDB21DAFEF720063EB85 /* Build configuration list for PBXProject "JYTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B47FDAE1DAFEF720063EB85;
+			productRefGroup = 4B47FDB81DAFEF720063EB85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B47FDB61DAFEF720063EB85 /* JYTextField */,
+				4B47FDCA1DAFEF720063EB85 /* JYTextFieldTests */,
+				4B47FDD51DAFEF720063EB85 /* JYTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B47FDB51DAFEF720063EB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B47FDC51DAFEF720063EB85 /* LaunchScreen.storyboard in Resources */,
+				4B47FDC21DAFEF720063EB85 /* Assets.xcassets in Resources */,
+				4B47FDC01DAFEF720063EB85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B47FDC91DAFEF720063EB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B47FDD41DAFEF720063EB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B47FDB31DAFEF720063EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B47FDBD1DAFEF720063EB85 /* ViewController.swift in Sources */,
+				4B47FDBB1DAFEF720063EB85 /* AppDelegate.swift in Sources */,
+				4B47FDE91DAFEF850063EB85 /* JYTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B47FDC71DAFEF720063EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B47FDD01DAFEF720063EB85 /* JYTextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B47FDD21DAFEF720063EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B47FDDB1DAFEF720063EB85 /* JYTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B47FDCD1DAFEF720063EB85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B47FDB61DAFEF720063EB85 /* JYTextField */;
+			targetProxy = 4B47FDCC1DAFEF720063EB85 /* PBXContainerItemProxy */;
+		};
+		4B47FDD81DAFEF720063EB85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B47FDB61DAFEF720063EB85 /* JYTextField */;
+			targetProxy = 4B47FDD71DAFEF720063EB85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B47FDBE1DAFEF720063EB85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B47FDBF1DAFEF720063EB85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B47FDC31DAFEF720063EB85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B47FDC41DAFEF720063EB85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B47FDDD1DAFEF720063EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B47FDDE1DAFEF720063EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B47FDE01DAFEF720063EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuangJinyong.JYTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B47FDE11DAFEF720063EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuangJinyong.JYTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B47FDE31DAFEF720063EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuangJinyong.JYTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYTextField.app/JYTextField";
+			};
+			name = Debug;
+		};
+		4B47FDE41DAFEF720063EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuangJinyong.JYTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYTextField.app/JYTextField";
+			};
+			name = Release;
+		};
+		4B47FDE61DAFEF720063EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JYTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuangJinyong.JYTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JYTextField;
+			};
+			name = Debug;
+		};
+		4B47FDE71DAFEF720063EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JYTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuangJinyong.JYTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JYTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B47FDB21DAFEF720063EB85 /* Build configuration list for PBXProject "JYTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B47FDDD1DAFEF720063EB85 /* Debug */,
+				4B47FDDE1DAFEF720063EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B47FDDF1DAFEF720063EB85 /* Build configuration list for PBXNativeTarget "JYTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B47FDE01DAFEF720063EB85 /* Debug */,
+				4B47FDE11DAFEF720063EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B47FDE21DAFEF720063EB85 /* Build configuration list for PBXNativeTarget "JYTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B47FDE31DAFEF720063EB85 /* Debug */,
+				4B47FDE41DAFEF720063EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B47FDE51DAFEF720063EB85 /* Build configuration list for PBXNativeTarget "JYTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B47FDE61DAFEF720063EB85 /* Debug */,
+				4B47FDE71DAFEF720063EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B47FDAF1DAFEF720063EB85 /* Project object */;
+}

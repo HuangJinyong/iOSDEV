@@ -1,8 +1,8 @@
 //
 //  JYTextField.swift
-//  JYTextFileld
+//  JYTextField
 //
-//  Created by Jinyong on 2016/10/13.
+//  Created by Jinyong on 2016/10/14.
 //  Copyright © 2016年 Jinyong. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ class JYTextField: UITextField {
     private var password: String = "" // 缓存密码
     private var beginEditingObserver: AnyObject!
     private var endEditingObserver: AnyObject!
-
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         awakeFromNib()
@@ -58,6 +58,4 @@ class JYTextField: UITextField {
             self.becomeFirstResponder()
         }
     }
-
-    
 }

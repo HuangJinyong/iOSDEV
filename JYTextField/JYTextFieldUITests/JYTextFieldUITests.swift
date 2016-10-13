@@ -1,14 +1,14 @@
 //
-//  JYTextFileldUITests.swift
-//  JYTextFileldUITests
+//  JYTextFieldUITests.swift
+//  JYTextFieldUITests
 //
-//  Created by Jinyong on 2016/10/13.
+//  Created by Jinyong on 2016/10/14.
 //  Copyright © 2016年 Jinyong. All rights reserved.
 //
 
 import XCTest
 
-class JYTextFileldUITests: XCTestCase {
+class JYTextFieldUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
