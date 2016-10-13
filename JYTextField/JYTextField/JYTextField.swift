@@ -10,8 +10,8 @@ import UIKit
 
 class JYTextField: UITextField {
     private var password: String = "" // 缓存密码
-    private var beginEditingObserver: AnyObject!
-    private var endEditingObserver: AnyObject!
+    private var beginEditingObserver: AnyObject! //注册键盘即将开始输入的通知
+    private var endEditingObserver: AnyObject!  // 注册键盘即将完成输入的通知
     
     override init(frame: CGRect) {
         super.init(frame: frame)
