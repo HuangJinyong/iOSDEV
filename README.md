@@ -18,4 +18,7 @@ iOS9系统自带的UITextField在切换到暗码时会清除之前的输入文�
 #### 使用UIActivityViewController显示分享选项
 ![](https://Footmark.FM/wp-content/uploads/2016/10/share01.gif)
 
+#### 了解滚动视图UIScrollview
+![](https://Footmark.FM/wp-content/uploads/2016/10/scroll.gif)
+
 
